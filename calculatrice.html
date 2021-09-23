@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+     
+    <link rel="stylesheet" href="stylecal.css">
+    <script type="text/javascript" src="nov.js"></script> 
+</head>
+<body>
+    <div class="container">
+        <div class="txt">
+            <div data-previous-operand id="dtxt1"></div> 
+            <div data-current-operand  id="dtxt2"></div>
+        </div>
+        <table class="tab" name="ttab">
+            <tr>
+                <td><button class="b1"data-number  onclick="afficher(7)">7 </button></td>
+                <td><button class="b1" data-number onclick="afficher(8)">8 </button></td>
+                <td><button class="b1" data-number onclick="afficher(9)">9</button></td>
+                <td><button class="b2" data-operation onclick="operation('/')">/</button></td>
+            </tr>
+            <tr>
+               
+                <td><button class="b1"data-number onclick="afficher(4)" >4</button></td>
+                <td><button class="b1" data-number onclick="afficher(5)">5 </button></td>
+                <td><button class="b1"data-number onclick="afficher(6)">6</button></td>
+                <td><button class="b2"data-operation onclick="operation('*')">*</button></td>
+            </tr>
+            <tr>
+                <td><button class="b1"data-number onclick="afficher(1)">1</button></td>
+                <td><button class="b1"data-number onclick="afficher(2)">2</button></td>
+                <td><button class="b1"data-number onclick="afficher(3)">3</button></td>
+                <td><button class="b2" data-operation onclick="operation('-')">-</button></td>
+            </tr>
+            <tr>
+                <td><button class="b1"data-number onclick="afficher(0)">0</button></td>
+                <td><button class="b1"data-number onclick="afficher('00')">00</button></td>
+                <td><button class="b1"data-number onclick="operation('.')">.</button></td>
+                <td><button class="b2"data-operation onclick="operation('+')">+</button></td>
+            </tr>
+            <tr>
+                <td><button class="b3" data-equals onclick="racine() ">sqrt</button></td>
+                <td ><button   class="b4" data-all-clear onclick="allclear()">Reset</button></td>
+                <td><button class="b3" data delete onclick="delet()">←</button></td>
+                <td><button class="b2" data-equals onclick="operationegal('=')">=</button></td>
+                
+            </tr>
+    
+        
+        </table>
+    
+    </div>
+     
+</body>      
+</html>
+
+
+
+
+    
+
+
+
+
+        

@@ -1,0 +1,142 @@
+
+body{
+   
+    width: 315px;
+    height: 500px;
+   
+    color: white;
+  
+    
+}
+.show{
+    visibility: visible;
+}
+.container{
+    
+    border:5px solid  black ;
+    padding-left: 15px;
+    background-color: black;
+    position: absolute; /* postulat de départ */
+    top: 50%; left: 50%; /* à 50%/50% du parent référent */
+    transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+    
+}
+
+.b1{
+    background: black;
+    padding: 10px;
+    border-radius: 60%;
+    width: 65px;
+    height: 65px;
+    text-align: center;
+    color: white;
+    font-size: 35PX;
+}
+/*#b17{
+    background: rgb(160, 158, 158);
+    padding: 10px;
+    border-radius: 60%;
+    width: 65px;
+    height: 65px;
+    text-align: center;
+    color: white;
+    font-size: 35PX;
+}*/
+
+
+.b2{
+    background: rgb(255, 165, 0);
+    padding: 10px;
+    border-radius: 60%;
+    width: 65px;
+    height: 65px;
+    text-align: center;
+    color: white;
+    font-size: 30PX;
+}
+.b3{
+    
+    padding: 10px;
+    color: black;
+    width: 65px;
+    height: 55px;
+    text-align: center;
+    font-size: 20PX;
+}
+.b4{
+    padding: 10px;
+    color: rgb(73, 53, 53);
+    width: 65px;
+    height: 55px;
+    text-align: center;
+    font-size: 18PX
+}
+
+#dtxt1{ 
+    width: 300px;
+    height: 60px;
+    background-color: black; 
+    color: blanchedalmond;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding:10px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+#dtxt2{
+    background-color: black;
+    width: 300px;
+    height: 60px;
+    color: white;
+    font-size: 3.5rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding:10px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+    
+
+.txt1{        
+   background-color: black;
+    width: 300px;
+    height: 60px;
+    outline: none;
+    border: none;
+    color: red;
+    font-size: 50px;
+    
+    }
+    .txt2{
+    background-color: black;
+    width: 300px;
+    height: 60px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 50px;
+}
+.txt{
+    background-color: black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding:10px;
+    word-wrap: break-word;
+    word-break: break-all;
+
+}
+.tab{
+    padding: 30px;;
+    margin-top: 40px;
+
+}
+
+
+
